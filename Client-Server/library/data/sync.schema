@@ -1,0 +1,19 @@
+[schema]
+name = sync
+version = 1.0
+
+[entities]
+communication_info = master:long
+user = name:str,connected:int
+token = data:str
+full_text = data:str
+
+[communication_info]
+user = user._id*
+
+[user]
+
+[token]
+
+[full_text]
+

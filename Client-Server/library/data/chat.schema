@@ -1,0 +1,19 @@
+[schema]
+name = chat
+version = 1.0
+
+[entities]
+room = name:str
+message = timestamp:string,text:str
+user_rooms = name:str
+
+[room]
+activity = activity._id
+msg = message._id*
+
+[message]
+user = user._id
+
+[user_rooms]
+user = user._id
+room = user._id*

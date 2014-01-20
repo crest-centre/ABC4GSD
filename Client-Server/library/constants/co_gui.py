@@ -1,0 +1,46 @@
+# -*- coding: utf8 -*-
+
+
+#main
+menu_CLOSEGUI = 10000
+
+# application menu
+menu_PIN = 10001
+menu_UPDATE = 10002
+menu_FULLSYNC = 10003
+
+# activity manager
+menu_CONNECT = 10101
+menu_DISCONNECT = 10102
+menu_SUSPEND_ACTIVITY = 10103
+
+menu_SRV_SET = 10151
+menu_SRV_STORE = 10152
+menu_SRV_RESTORE = 10153
+menu_SRV_LOAD = 10154
+menu_SRV_SAVE = 10155
+menu_SRV_RUN = 10156
+menu_SRV_RUN_PREV = 10157
+menu_SRV_RUN_NEXT = 10158
+
+# activity list
+menu_ACTIVITY_ADD = 10201
+menu_ACTIVITY_MODIFY = 10202
+menu_ACTIVITY_ATTACHMENT = 10203
+menu_ACTIVITY_SUSPEND = 10211
+
+# user list
+menu_USER_ADD= 10251
+menu_USER_MODIFY= 10252
+
+# application list
+menu_APPLICATION_ADD= 10301
+menu_APPLICATION_MODIFY= 10302
+menu_APPLICATION_ATTACHMENT= 10303
+menu_APPLICATION_PIN = 10304
+
+# artifact list
+menu_ARTIFACT_ADD= 10351
+menu_ARTIFACT_MODIFY= 10352
+
+

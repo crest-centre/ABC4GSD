@@ -1,0 +1,35 @@
+[schema]
+name = abc
+version = 1.0
+
+[entities]
+activity = name:str,state:int,repo:str
+artifact = name:str,location:str,state:str
+user = name:str,state:str,act_dim_x:int,act_dim_y:int,act_pos_x:int,act_pos_y:int,act_last:long,tmp_dir:str
+application = name:str,command:str,file_name:str,folder:str,state:int,
+application_state = property:str,value:str,name:str
+activity_state = state:int
+
+[activity]
+user = user._id*
+artifact = artifact._id*
+application = application._id*
+relationship = activity._id*
+
+[application]
+artifact = artifact._id*
+
+[application_state]
+user = user._id
+application = application._id
+
+[activity_state]
+user = user._id
+activity = activity._id
+application = application._id
+artifact = artifact._id
+
+[user]
+artifact = artifact._id*
+
+[artifact]

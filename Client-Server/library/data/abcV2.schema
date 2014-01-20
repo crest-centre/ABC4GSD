@@ -1,0 +1,45 @@
+[schema]
+name = abc
+version = 2.0
+
+[entities]
+activity = name:str,state:int,description:str
+state = name:str,state:int
+user = name:str,activity:long,artifact:long,repository:str,state:int,utc:str
+ecology = name:str
+property = name:str,key:str,value:str
+asset = name:str,ptr:long,type:str
+artifact = name:str,location:str,state:str,type:str,independent:bool
+application = need:str
+relation = name:str,type:int
+
+[activity]
+creator = user._id
+active = user._id*
+
+[state]
+user = user._id
+activity = activity._id
+
+[user]
+
+[ecology]
+user = user._id
+activity = activity._id
+asset = asset._id*
+
+[property]
+user = user._id
+asset = asset._id
+
+[asset]
+
+[artifact]
+
+[application]
+
+[relation]
+from = activity._id 
+to = activity._id 
+
+
