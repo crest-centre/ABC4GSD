@@ -4,3 +4,8 @@
 *.jar
 *.war
 *.ear
+
+*.pyc
+*.e4p
+
+.DS_Store
