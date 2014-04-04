@@ -1,0 +1,31 @@
+10
+
+dir
+220
+svn+ssh://test2lab3.itu.dk/home/pate/svnRepo/itu.abc4gsd.eclipse.core.AppInterface/src/itu/abc4gsd/eclipse
+svn+ssh://test2lab3.itu.dk/home/pate/svnRepo
+
+
+
+2013-02-13T05:25:29.291442Z
+132
+pate
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b140b244-e207-4570-8f87-ee2456d6af29
+
+core
+dir
+

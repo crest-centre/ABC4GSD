@@ -1,0 +1,16 @@
+Some notes:
+-----------
+
+java.library.path
+-----------------
+The setting for the external libs [-Djava.library.path=/usr/local/lib/]
+needs to be included in [eclipse.ini].
+In this case: [/Applications/eclipse/Eclipse.app/Contents/MacOS/eclipse.ini]
+
+
+
+SVNKit - JavaHL
+---------------
+In preferences team->svn->svn interface
+it must be SVNKit
+
